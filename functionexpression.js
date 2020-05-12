@@ -16,3 +16,13 @@ console.log('bye people!!!!!!!!!!');
 
 
 bye();
+
+//passing a function into another function
+
+function example(fun){
+
+    fun();
+
+}
+
+example(bye);
